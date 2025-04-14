@@ -1,0 +1,5 @@
+AttendanceManagementSystem-1 is a Java-based backend project developed using the Spring MVC framework. The system is designed to manage and track student attendance efficiently in a university or college environment. It follows the MVC architecture and is structured with clearly separated controller, service, and repository layers, promoting clean code and modularity.
+
+The backend is built using Spring Tool Suite (STS) with Maven for dependency management. PostgreSQL is used as the relational database, accessed through pgAdmin. The application is deployed on an Apache Tomcat server. The RESTful APIs developed in this project enable operations such as adding, updating, deleting student records, and marking and retrieving attendance records. These APIs have been thoroughly tested using Postman.
+
+The database connectivity is established via JDBC, and the project configuration is managed through the application.properties file. The system is designed to be extendable, allowing future features such as authentication, reporting, or integration with a frontend framework like React or Angular.
