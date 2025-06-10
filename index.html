@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotel Review System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏨 Hotel Review System</h1>
+
+    <section class="hotel">
+      <h2>Hotel Sunrise</h2>
+      <div class="reviews">
+        <h3>Reviews:</h3>
+        <ul>
+          <li><strong>Leela:</strong> ⭐⭐⭐⭐ - Great service!</li>
+          <li><strong>John:</strong> ⭐⭐⭐ - Comfortable stay.</li>
+        </ul>
+      </div>
+
+      <form class="review-form">
+        <h3>Add a Review</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your name" required>
+
+        <label for="rating">Rating:</label>
+        <select id="rating">
+          <option value="5">⭐⭐⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="1">⭐</option>
+        </select>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="3" placeholder="Write your review here..." required></textarea>
+
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
